@@ -16,7 +16,4 @@ group :development do
   gem "capistrano-rvm"
 end
 
-Dir.glob( 'mod/**{,/*/**}/Gemfile' ).each do |gemfile|
-  instance_eval File.read(gemfile)
-end
 
