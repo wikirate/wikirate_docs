@@ -1,3 +1,17 @@
+PATH
+  remote: vendor/decko-cap
+  specs:
+    decko-cap (0.1)
+      airbrussh
+      bcrypt_pbkdf
+      capistrano
+      capistrano-bundler
+      capistrano-git-with-submodules (~> 2.0)
+      capistrano-maintenance
+      capistrano-passenger
+      capistrano-rvm
+      ed25519
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -80,6 +94,8 @@ GEM
       capistrano (~> 3.1)
     capistrano-git-with-submodules (2.0.4)
       capistrano (~> 3.7)
+    capistrano-maintenance (1.2.1)
+      capistrano (>= 3.0)
     capistrano-passenger (0.2.1)
       capistrano (~> 3.0)
     capistrano-rvm (0.1.2)
@@ -424,6 +440,7 @@ DEPENDENCIES
   capistrano-rvm
   dalli
   decko
+  decko-cap!
   ed25519 (~> 1.2)
   mysql2 (< 0.5)
 

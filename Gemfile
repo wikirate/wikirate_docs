@@ -14,6 +14,8 @@ group :development do
   #gem "capistrano-maintenance", require: false
   gem "capistrano-passenger"
   gem "capistrano-rvm"
+  
+  gem "decko-cap", path: "./vendor/decko-cap"
 end
 
 
